@@ -78,7 +78,10 @@ git merge 其他分支名称
 ### 删除分支
 
 ```git
+// 这个操作删除的是本地分支
 git branch -D 分支名称
+// 删除github上面的分支
+git push origin :分支名称
 ```
 
 
